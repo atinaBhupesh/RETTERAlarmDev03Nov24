@@ -1,4 +1,4 @@
-package live_functions;
+package dev_functions;
 
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -914,7 +914,7 @@ gTimeA7min = tmc.germanyTimeAfter7Minutes;
 		Reporter.log(" ", true);
 		Reporter.log("The process of creating a manual alarm by attribute is started.", true);
 		ma.manualAlarmCommon(driver);
-		ma.manualAlarmByAttribute(driver, date);
+		ma.manualAlarmByAttribute(driver, date,deptName,  stName1);
 		Reporter.log("The process of creating a manual alarm by attribute is complete.", true);
 		Reporter.log(" ", true);
 		Thread.sleep(3000);

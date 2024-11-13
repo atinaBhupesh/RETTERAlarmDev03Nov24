@@ -3,20 +3,76 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="live_functions.A_testClass_dailyCheckPointList">
+      <class name="dev_functions.A_testClass_dailyCheckPointList">
         <methods>
-          <include name="logOut"/>
-          <include name="createInformationByAttribute"/>
-          <include name="backToHomePage2"/>
-          <include name="BeforeSuite"/>
-          <include name="detailsAboutScript"/>
-          <include name="AfterTest"/>
-          <include name="backToHomePage"/>
-          <include name="BeforeTest"/>
-          <include name="AfterSute"/>
+          <include name="addFirefighterForNewStation06"/>
+          <include name="createManualAlarmByAttribute"/>
+          <include name="createInformationByResource"/>
+          <include name="sendMessageChatGrouCreatedByAttribute"/>
+          <include name="createChatgroupByAttribute"/>
+          <include name="sendmessageToinfoUsers"/>
+          <include name="createMonitorInformation01"/>
+          <include name="addEventCategory"/>
+          <include name="createInfoEventByFighterSchedule"/>
+          <include name="createInfoEventByAttributeSchedule"/>
           <include name="lounchBrowser"/>
+          <include name="BeforeTest"/>
+          <include name="extendAlarmToSecondStation"/>
+          <include name="createMonitorInformation02"/>
+          <include name="backToHomePage2"/>
+          <include name="createManualAlarmByResource"/>
+          <include name="cretecalendarEventResourceSchedule"/>
+          <include name="createTestAlarmByAttributeRecursiveMontlyDateWise"/>
+          <include name="createInfoEventByResourceSchedule"/>
+          <include name="BeforeSuite"/>
+          <include name="createAvailabilityRequestSendMultipleDays"/>
+          <include name="createPermissionGroupDefaultStation"/>
+          <include name="createInfoEventByResource"/>
+          <include name="AfterSute"/>
+          <include name="createAlamTemplate"/>
+          <include name="createTestAlarmByAttributeOneTime"/>
+          <include name="addStationUserForStation06"/>
+          <include name="createManualAlarmByEscalationResource"/>
+          <include name="createAvailabilityRequestSendImmediat"/>
+          <include name="testAlarmByRecursiveMonthlyDayWise"/>
+          <include name="backToHomePage"/>
+          <include name="createInformationByFirefighter"/>
+          <include name="sendmessageToinfoEventUsers"/>
+          <include name="createChatgroupByResource"/>
+          <include name="sendmessageToAlarmUser"/>
+          <include name="createLowPriorityManualAlarmByAttribute"/>
+          <include name="createResource"/>
+          <include name="createInfoEventByFirefighter"/>
+          <include name="sendMessageChatGrouCreatedByAlarmLoop"/>
+          <include name="CreateAttributeForDepartment"/>
+          <include name="lowPriorityAlarmWithEscalationResource"/>
+          <include name="createStormAlarm"/>
+          <include name="createChatgroupByAlarmloop"/>
+          <include name="logOut"/>
+          <include name="createTestAlarmByAttributeRecursiveWeekly"/>
+          <include name="detailsAboutScript"/>
+          <include name="createAvailabilityRequestSendSchedule"/>
+          <include name="createChatgroupByFirefighter"/>
+          <include name="createAlamLoop"/>
+          <include name="createAlarmCheckList"/>
+          <include name="createInformationByAttribute"/>
+          <include name="SendmessagetoARUsers"/>
+          <include name="addVehicleUserForStation06"/>
+          <include name="sendMessageChatGrouCreatedByResource"/>
+          <include name="createAvailabilityRequestSendRecursive"/>
+          <include name="cretecalendarEventAttributeSchedule"/>
+          <include name="cretecalendarEventFirefighterSchedule"/>
+          <include name="AfterTest"/>
+          <include name="createNormalCheckList"/>
+          <include name="sendMessageChatGrouCreatedByFirefighter"/>
+          <include name="extendLowPriorityAlarmFrom07To06ByAttribute"/>
+          <include name="createTestAlarmByAttributeRecursivedaily"/>
+          <include name="sendmessageToTestAlarmUsers"/>
+          <include name="createManualAlarmByFireFighte"/>
+          <include name="extendAlarmFrom07To06ByAttribute"/>
+          <include name="createInfoEventByAttribute"/>
         </methods>
-      </class> <!-- live_functions.A_testClass_dailyCheckPointList -->
+      </class> <!-- dev_functions.A_testClass_dailyCheckPointList -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,4 +1,4 @@
-package live_functions;
+package dev_functions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

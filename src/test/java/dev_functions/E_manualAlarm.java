@@ -1,4 +1,4 @@
-package live_functions;
+package dev_functions;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,7 @@ public class E_manualAlarm extends B_baseClass
 
 
      {
-
+	
 
 	
 	@FindBy(xpath = "//span[text()=\"Alarm\"]")
@@ -96,7 +96,7 @@ public class E_manualAlarm extends B_baseClass
 	 @FindBy(xpath="(//span[text()=\"Active\"])[1]")private WebElement deactiveAlarm;
 	@FindBy(xpath="//button[@id=\"statChange\"]")private WebElement changeStatusYes;
 	
-	@FindBy(xpath = "//input[@value=\"15429\"]")private WebElement ADST06A2;
+	@FindBy(xpath = "//input[@value=\"10881\"]")private WebElement BH1A1;
 	@FindBy(xpath = "//input[@value=\"3136\"]")private WebElement ADST06R2;
 	
 	
@@ -166,20 +166,20 @@ public class E_manualAlarm extends B_baseClass
 
 	}
 
-	public void manualAlarmByAttribute(WebDriver driver, String date) throws Throwable {
+	public void manualAlarmByAttribute(WebDriver driver, String date,String deptName,String  stName1) throws Throwable {
 		Actions act = new Actions(driver);
 
 		createNewButton.click();
 	
 		fireDepartmentField.click();
 	
-		act.sendKeys("Andrew").build().perform();
+		act.sendKeys(deptName).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 		fireStationField.click();
 		
-		act.sendKeys("06").build().perform();
+		act.sendKeys( stName1).build().perform();
 		Thread.sleep(2000);
 		act.sendKeys(Keys.ENTER).build().perform();
 	
@@ -199,23 +199,17 @@ public class E_manualAlarm extends B_baseClass
 		vehicleField.click();
 		Thread.sleep(1000);
 		
-		act.sendKeys("06v1").build().perform();
+		act.sendKeys("st1.v1").build().perform();
 		Thread.sleep(3000);
 		act.sendKeys(Keys.ENTER).build().perform();
 		Thread.sleep(2000);
 
-		act.sendKeys(Keys.TAB).build().perform();
-		Thread.sleep(2000);
-		act.sendKeys("06v3").build().perform();
-		Thread.sleep(3000);
-		act.sendKeys(Keys.ENTER).build().perform();
-		Thread.sleep(2000);
-
+		
 		selectAllCheckBox.click();
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 	
-		ADST06A2.click();
+		BH1A1.click();
 		//RA1.click();
 
 		adressFeild.click();
@@ -652,7 +646,7 @@ public class E_manualAlarm extends B_baseClass
 		Thread.sleep(2000);
 		selectAllCheckBox.click();
 	
-		ADST06A2.click();
+		BH1A1.click();
 	
 	
 		lowPriorityCheckBox.click();

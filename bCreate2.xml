@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="live_functions.A_testClass_dailyCheckPointList"/>
+      <class name="dev_functions.A_testClass_dailyCheckPointList"/>
       
        <methods>
 				<include name="userDetails"  />
@@ -13,7 +13,7 @@
 	
 			 
 			 
-         	  <include name="createInformationByAttribute"/>
+         	  <include name="createManualAlarmByAttribute"/>
         	`
 			
         	

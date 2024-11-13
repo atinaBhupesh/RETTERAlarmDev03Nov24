@@ -1,4 +1,4 @@
-package live_functions;
+package dev_functions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
