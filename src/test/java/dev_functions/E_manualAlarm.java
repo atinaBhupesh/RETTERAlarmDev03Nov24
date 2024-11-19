@@ -1085,12 +1085,12 @@ public class E_manualAlarm extends B_baseClass
 	
 
 		for (int i = 1; i <= 100; i++) {
-			searchField.click();
-			
-			act.sendKeys("BG").build().perform();
-			
-			searchButton.click();
-			Thread.sleep(3000);
+//			searchField.click();
+//			
+//			act.sendKeys("BG").build().perform();
+//			
+//			searchButton.click();
+//			Thread.sleep(3000);
 		
 			delete.click();
 		
