@@ -3,13 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="live_functions.AAA_testClass_delete"/>
+      <class name="dev_functions.AAA_testClass_delete"/>
       <methods>
 			
 						<include name="userDetails"  />	
 					
-						<include name="deleteUers" />
-					     	 <include name="deactiveManualAlarm" />
+						<include name="deleteManualAlarm" />
 					        
 					    
 					    
