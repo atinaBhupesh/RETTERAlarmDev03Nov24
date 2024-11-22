@@ -8,7 +8,7 @@
 			
 						<include name="userDetails"  />	
 					
-						<include name="deleteManualAlarm" />
+			<include name="deleteManualAlarm" />
 					        
 					    
 					    
